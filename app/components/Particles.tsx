@@ -2,9 +2,10 @@
 
 import { loadSlim } from "tsparticles-slim";
 import Particles from "react-tsparticles";
+import { Engine } from "tsparticles-engine";
 
 export function ParticlesPage() {
-    const particlesInit = async (engine) => {
+    const particlesInit = async (engine: Engine): Promise<void> => {
     await loadSlim(engine);
     };
 

@@ -25,7 +25,7 @@ export default function editProfilePage() {
   useEffect(() => {
     userService
       .profile()
-      .then((res) => {
+      .then((res:any) => {
         setUser(res.data.data);
       })
       .catch(() => {
