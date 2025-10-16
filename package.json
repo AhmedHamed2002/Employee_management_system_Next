@@ -1,0 +1,33 @@
+{
+  "name": "flowbite-react-template-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "@hookform/resolvers": "^5.2.2",
+    "axios": "^1.12.2",
+    "flowbite-react": "^0.12.4",
+    "next": "^15.4.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-hook-form": "^7.65.0",
+    "react-toastify": "^11.0.5",
+    "react-tsparticles": "^2.12.2",
+    "sweetalert2": "^11.26.1",
+    "tsparticles-slim": "^2.12.0",
+    "yup": "^1.7.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "@types/node": "^24.0.15",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.8.3"
+  }
+}

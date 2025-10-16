@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+    scroll-behavior: smooth;
+}
+
